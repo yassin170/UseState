@@ -11,7 +11,7 @@ export default function Sidebar(props) {
             <div className='h-[58%] w-[80%] flex flex-col gap-6'>
                 <div className='flex gap-6 items-center'>
                     <div className={`h-[40px] w-[40px] rounded-full border-white border-[2px] text-white font-extrabold flex justify-center items-center
-                    ${props.page == 1 ?"bg-[#b6dcfa] text-[#3f35fe] border-none":''}`}>
+                    ${props.page == 1 ?"bg-[#b6dcfa] text-[#3f35fe]":''}`}>
                         1
                     </div>
                     <div>

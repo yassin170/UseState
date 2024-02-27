@@ -8,8 +8,6 @@ import { useState } from 'react';
 
 export default function SelectPlan() {
 
-    const [tog, setTog] = useState(0)
-
 
     return (
         <div className='h-[440px]'>
